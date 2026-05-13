@@ -90,7 +90,7 @@ atributo(jasmine, es_protagonista, si).
 atributo(jasmine, color_pelo, negro).
 atributo(jasmine, pelo, largo).
 atributo(jasmine, es_magico, no).
-atributo(jasmine, color_vestimenta, verde).
+atributo(jasmine, color_vestimenta, azul).
 atributo(jasmine, vive_en, desierto).
 atributo(jasmine, genero, femenino).
 atributo(jasmine, habla, si).
