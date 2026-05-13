@@ -57,6 +57,7 @@ VALID = {
         "ciudad", 
         "desierto", 
         "pantano",
+        "oceano",
         "otro"
         },
 
@@ -67,6 +68,8 @@ VALID = {
         },
 
     "habla": {"si", "no"},
+
+    "edad": {"adulto", "nino"},
 }
 
 COLUMNAS = {"nombre"} | VALID.keys()
