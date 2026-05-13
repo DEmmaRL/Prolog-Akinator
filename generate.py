@@ -69,7 +69,7 @@ VALID = {
 
     "habla": {"si", "no"},
 
-    "edad": {"adulto", "nino"},
+    "edad": {"adulto", "nino", "bebe" , "adolescente" , "anciano"},
 }
 
 COLUMNAS = {"nombre"} | VALID.keys()

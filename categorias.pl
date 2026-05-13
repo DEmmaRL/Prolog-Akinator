@@ -63,6 +63,9 @@ valor_valido(habla,no).
 
 valor_valido(edad, adulto).
 valor_valido(edad, nino).
+valor_valido(edad, bebe).
+valor_valido(edad, adolescente).
+valor_valido(edad, anciano).
 
 % Lista de atributos en orden de pregunta
 atributo(especie).
@@ -88,7 +91,7 @@ plantilla_pregunta(color_vestimenta, "¿Tu personaje viste de {valor}?").
 plantilla_pregunta(vive_en, "¿Tu personaje vive en {valor}?").
 plantilla_pregunta(genero, "¿Tu personaje es {valor}?").
 plantilla_pregunta(habla, "¿Tu personaje habla?").
-plantilla_pregunta(edad, "¿Tu personaje es un adulto?").
+plantilla_pregunta(edad, "¿Tu personaje es un {valor}?").
 
 % Plantillas para cuando el valor es 'na' (no aplica)
 plantilla_na(color_vestimenta, "¿Tu personaje no usa ropa?").

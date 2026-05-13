@@ -418,7 +418,7 @@ atributo(dopey, color_vestimenta, verde).
 atributo(dopey, vive_en, bosque).
 atributo(dopey, genero, masculino).
 atributo(dopey, habla, si).
-atributo(dopey, edad, adulto).
+atributo(dopey, edad, anciano).
 
 atributo(sleepy, especie, ser_magico).
 atributo(sleepy, es_villano, no).
@@ -430,7 +430,7 @@ atributo(sleepy, color_vestimenta, cafe).
 atributo(sleepy, vive_en, bosque).
 atributo(sleepy, genero, masculino).
 atributo(sleepy, habla, si).
-atributo(sleepy, edad, adulto).
+atributo(sleepy, edad, anciano).
 
 atributo(sneezy, especie, ser_magico).
 atributo(sneezy, es_villano, no).
@@ -442,7 +442,7 @@ atributo(sneezy, color_vestimenta, amarillo).
 atributo(sneezy, vive_en, bosque).
 atributo(sneezy, genero, masculino).
 atributo(sneezy, habla, si).
-atributo(sneezy, edad, adulto).
+atributo(sneezy, edad, anciano).
 
 atributo(happy, especie, ser_magico).
 atributo(happy, es_villano, no).
@@ -454,7 +454,7 @@ atributo(happy, color_vestimenta, azul).
 atributo(happy, vive_en, bosque).
 atributo(happy, genero, masculino).
 atributo(happy, habla, si).
-atributo(happy, edad, adulto).
+atributo(happy, edad, anciano).
 
 atributo(bashful, especie, ser_magico).
 atributo(bashful, es_villano, no).
@@ -466,7 +466,7 @@ atributo(bashful, color_vestimenta, cafe).
 atributo(bashful, vive_en, bosque).
 atributo(bashful, genero, masculino).
 atributo(bashful, habla, si).
-atributo(bashful, edad, adulto).
+atributo(bashful, edad, anciano).
 
 atributo(grumpy, especie, ser_magico).
 atributo(grumpy, es_villano, no).
@@ -478,7 +478,7 @@ atributo(grumpy, color_vestimenta, rojo).
 atributo(grumpy, vive_en, bosque).
 atributo(grumpy, genero, masculino).
 atributo(grumpy, habla, si).
-atributo(grumpy, edad, adulto).
+atributo(grumpy, edad, anciano).
 
 atributo(rapunzel, especie, humano).
 atributo(rapunzel, es_villano, no).
@@ -554,7 +554,7 @@ atributo(dash, edad, nino).
 
 atributo(jack_jack, especie, humano).
 atributo(jack_jack, es_villano, no).
-atributo(jack_jack, es_protagonista, no).
+atributo(jack_jack, es_protagonista, si).
 atributo(jack_jack, color_pelo, rubio).
 atributo(jack_jack, pelo, corto).
 atributo(jack_jack, es_magico, si).
@@ -562,7 +562,7 @@ atributo(jack_jack, color_vestimenta, rojo).
 atributo(jack_jack, vive_en, ciudad).
 atributo(jack_jack, genero, masculino).
 atributo(jack_jack, habla, si).
-atributo(jack_jack, edad, nino).
+atributo(jack_jack, edad, bebe).
 
 atributo(mowgli, especie, humano).
 atributo(mowgli, es_villano, no).
@@ -1438,5 +1438,5 @@ atributo(violet, color_vestimenta, rojo).
 atributo(violet, vive_en, ciudad).
 atributo(violet, genero, femenino).
 atributo(violet, habla, si).
-atributo(violet, edad, adulto).
+atributo(violet, edad, nino).
 
