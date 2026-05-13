@@ -53,6 +53,9 @@ valor_valido(vive_en,desierto).
 valor_valido(vive_en,pantano).
 valor_valido(vive_en,oceano).
 valor_valido(vive_en,otro).
+valor_valido(vive_en,otro_mundo).
+valor_valido(vive_en,pueblo).
+valor_valido(vive_en,juego).
 
 valor_valido(genero,masculino).
 valor_valido(genero,femenino).

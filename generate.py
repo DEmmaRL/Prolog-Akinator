@@ -58,7 +58,10 @@ VALID = {
         "desierto", 
         "pantano",
         "oceano",
-        "otro"
+        "otro",
+        "otro_mundo",
+        "pueblo",
+        "juego"
         },
 
     "genero":{
