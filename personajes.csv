@@ -33,7 +33,7 @@ flora,ser_magico,no,no,gris,corto,si,rojo,bosque,femenino,si,adulto
 merriweather,ser_magico,no,no,negro,corto,si,azul,bosque,femenino,si,adulto
 snow_white,humano,no,si,negro,corto,no,amarillo,bosque,femenino,si,adulto
 doc,ser_magico,no,no,blanco,corto,no,naranja,bosque,masculino,si,adulto
-dopey,ser_magico,no,no,blanco,corto,no,verde,bosque,masculino,si,anciano
+dopey,ser_magico,no,no,blanco,corto,no,verde,bosque,masculino,no,anciano
 sleepy,ser_magico,no,no,blanco,corto,no,cafe,bosque,masculino,si,anciano
 sneezy,ser_magico,no,no,blanco,corto,no,amarillo,bosque,masculino,si,anciano
 happy,ser_magico,no,no,blanco,corto,no,azul,bosque,masculino,si,anciano
@@ -41,7 +41,7 @@ bashful,ser_magico,no,no,blanco,largo,no,cafe,bosque,masculino,si,anciano
 grumpy,ser_magico,no,no,blanco,corto,no,rojo,bosque,masculino,si,anciano
 rapunzel,humano,no,si,rubio,largo,si,morado,bosque,femenino,si,adulto
 eugene,humano,no,no,cafe,corto,no,azul,ciudad,masculino,si,adulto
-tarzan,humano,no,si,cafe,largo,no,cafe,bosque,masculino,si,adulto
+tarzan,humano,no,si,cafe,largo,no,cafe,selva,masculino,si,adulto
 jane,humano,no,no,cafe,largo,no,amarillo,ciudad,femenino,si,adulto
 woody,objeto,no,si,cafe,corto,no,amarillo,ciudad,masculino,si,adulto
 dash,humano,no,si,rubio,corto,si,rojo,ciudad,masculino,si,nino
@@ -54,7 +54,7 @@ lady,animal,no,si,naranja,largo,no,azul,ciudad,femenino,si,adulto
 lilo,humano,no,si,negro,largo,no,rojo,ciudad,femenino,si,nino
 stitch,animal,no,si,azul,corto,no,na,otro,masculino,si,nino
 simba,animal,no,si,rubio,corto,no,na,desierto,masculino,si,nino
-nala,animal,no,no,rubio,corto,no,na,desierto,masculino,si,nino
+nala,animal,no,no,rubio,corto,no,na,desierto,femenino,si,nino
 timon,animal,no,no,naranja,corto,no,na,desierto,masculino,si,adulto
 pumbaa,animal,no,no,rojo,corto,no,na,desierto,masculino,si,adulto
 rafiki,animal,no,no,gris,corto,no,na,desierto,masculino,si,adulto
@@ -109,9 +109,9 @@ cinderella,humano,no,si,rubio,largo,no,azul,castillo,femenino,si,adulto
 fairy_godmother,ser_magico,no,no,gris,corto,si,morado,otro,femenino,si,anciano
 jaq,animal,no,no,cafe,corto,no,rojo,castillo,masculino,si,adulto
 gus,animal,no,no,cafe,corto,no,verde,castillo,masculino,si,adulto
-dumbo,animal,no,si,ninguno,sin_pelo,no,na,otro,masculino,si,nino
+dumbo,animal,no,si,ninguno,sin_pelo,no,na,otro,masculino,no,nino
 hercules,humano,no,si,naranja,corto,no,naranja,ciudad,masculino,si,adulto
-pegasus,ser_magico,no,no,azul,corto,si,blanco,ciudad,masculino,si,adulto
+pegasus,ser_magico,no,no,azul,corto,si,blanco,ciudad,masculino,no,adulto
 meg,humano,no,si,cafe,largo,no,morado,ciudad,femenino,si,adulto
 phil,ser_magico,no,no,naranja,sin_pelo,no,na,ciudad,masculino,si,adulto
 quasimodo,humano,no,si,rojo,corto,no,verde,pueblo,masculino,si,adulto
