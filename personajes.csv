@@ -33,7 +33,7 @@ flora,ser_magico,no,no,gris,corto,si,rojo,bosque,femenino,si,adulto
 merriweather,ser_magico,no,no,negro,corto,si,azul,bosque,femenino,si,adulto
 snow_white,humano,no,si,negro,corto,no,amarillo,bosque,femenino,si,adulto
 doc,ser_magico,no,no,blanco,corto,no,naranja,bosque,masculino,si,adulto
-dopey,ser_magico,no,no,blanco,corto,no,verde,bosque,masculino,si,anciano
+dopey,ser_magico,no,no,ninguno,sin_pelo,no,verde,bosque,masculino,si,anciano
 sleepy,ser_magico,no,no,blanco,corto,no,cafe,bosque,masculino,si,anciano
 sneezy,ser_magico,no,no,blanco,corto,no,amarillo,bosque,masculino,si,anciano
 happy,ser_magico,no,no,blanco,corto,no,azul,bosque,masculino,si,anciano
@@ -49,12 +49,12 @@ jack_jack,humano,no,si,rubio,corto,si,rojo,ciudad,masculino,si,bebe
 mowgli,humano,no,si,negro,corto,no,rojo,selva,masculino,si,nino
 baloo,animal,no,si,gris,corto,no,na,selva,masculino,si,adulto
 bagheera,animal,no,no,negro,corto,no,na,selva,masculino,si,adulto
-tramp,animal,no,si,gris,corto,no,rojo,ciudad,masculino,si,adulto
-lady,animal,no,si,naranja,largo,no,azul,ciudad,femenino,si,adulto
+tramp,animal,no,si,gris,corto,no,na,ciudad,masculino,si,adulto
+lady,animal,no,si,naranja,largo,no,na,ciudad,femenino,si,adulto
 lilo,humano,no,si,negro,largo,no,rojo,ciudad,femenino,si,nino
 stitch,animal,no,si,azul,corto,no,na,otro,masculino,si,nino
 simba,animal,no,si,rubio,corto,no,na,desierto,masculino,si,nino
-nala,animal,no,no,rubio,corto,no,na,desierto,masculino,si,nino
+nala,animal,no,no,rubio,corto,no,na,desierto,femenino,si,nino
 timon,animal,no,no,naranja,corto,no,na,desierto,masculino,si,adulto
 pumbaa,animal,no,no,rojo,corto,no,na,desierto,masculino,si,adulto
 rafiki,animal,no,no,gris,corto,no,na,desierto,masculino,si,adulto
@@ -63,7 +63,7 @@ buzz_lightyear,objeto,no,si,cafe,corto,no,blanco,ciudad,masculino,si,adulto
 rex,objeto,no,no,ninguno,sin_pelo,no,verde,ciudad,masculino,si,adulto
 ham,objeto,no,no,ninguno,sin_pelo,no,rosa,ciudad,masculino,si,adulto
 slinky,objeto,no,no,ninguno,sin_pelo,no,cafe,ciudad,masculino,si,adulto
-bullseye,objeto,no,no,ninguno,sin_pelo,no,cafe,ciudad,masculino,no,adulto
+bullseye,objeto,no,no,ninguno,corto,no,cafe,ciudad,masculino,no,adulto
 jesse,objeto,no,si,rojo,largo,no,azul,ciudad,femenino,si,adulto
 mr_potatohead,objeto,no,si,negro,corto,no,na,ciudad,masculino,si,adulto
 ralph,humano,no,si,cafe,corto,no,naranja,juego,masculino,si,adulto
