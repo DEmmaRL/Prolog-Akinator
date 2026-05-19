@@ -411,8 +411,8 @@ atributo(doc, edad, adulto).
 atributo(dopey, especie, ser_magico).
 atributo(dopey, es_villano, no).
 atributo(dopey, es_protagonista, no).
-atributo(dopey, color_pelo, blanco).
-atributo(dopey, pelo, corto).
+atributo(dopey, color_pelo, ninguno).
+atributo(dopey, pelo, sin_pelo).
 atributo(dopey, es_magico, no).
 atributo(dopey, color_vestimenta, verde).
 atributo(dopey, vive_en, bosque).
@@ -511,7 +511,7 @@ atributo(tarzan, color_pelo, cafe).
 atributo(tarzan, pelo, largo).
 atributo(tarzan, es_magico, no).
 atributo(tarzan, color_vestimenta, cafe).
-atributo(tarzan, vive_en, bosque).
+atributo(tarzan, vive_en, selva).
 atributo(tarzan, genero, masculino).
 atributo(tarzan, habla, si).
 atributo(tarzan, edad, adulto).
@@ -606,7 +606,7 @@ atributo(tramp, es_protagonista, si).
 atributo(tramp, color_pelo, gris).
 atributo(tramp, pelo, corto).
 atributo(tramp, es_magico, no).
-atributo(tramp, color_vestimenta, rojo).
+atributo(tramp, color_vestimenta, na).
 atributo(tramp, vive_en, ciudad).
 atributo(tramp, genero, masculino).
 atributo(tramp, habla, si).
@@ -618,7 +618,7 @@ atributo(lady, es_protagonista, si).
 atributo(lady, color_pelo, naranja).
 atributo(lady, pelo, largo).
 atributo(lady, es_magico, no).
-atributo(lady, color_vestimenta, azul).
+atributo(lady, color_vestimenta, na).
 atributo(lady, vive_en, ciudad).
 atributo(lady, genero, femenino).
 atributo(lady, habla, si).
@@ -668,7 +668,7 @@ atributo(nala, pelo, corto).
 atributo(nala, es_magico, no).
 atributo(nala, color_vestimenta, na).
 atributo(nala, vive_en, desierto).
-atributo(nala, genero, masculino).
+atributo(nala, genero, femenino).
 atributo(nala, habla, si).
 atributo(nala, edad, nino).
 
@@ -772,7 +772,7 @@ atributo(bullseye, especie, objeto).
 atributo(bullseye, es_villano, no).
 atributo(bullseye, es_protagonista, no).
 atributo(bullseye, color_pelo, ninguno).
-atributo(bullseye, pelo, sin_pelo).
+atributo(bullseye, pelo, corto).
 atributo(bullseye, es_magico, no).
 atributo(bullseye, color_vestimenta, cafe).
 atributo(bullseye, vive_en, ciudad).

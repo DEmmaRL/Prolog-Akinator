@@ -41,7 +41,7 @@ bashful,ser_magico,no,no,blanco,largo,no,cafe,bosque,masculino,si,anciano
 grumpy,ser_magico,no,no,blanco,corto,no,rojo,bosque,masculino,si,anciano
 rapunzel,humano,no,si,rubio,largo,si,morado,bosque,femenino,si,adulto
 eugene,humano,no,no,cafe,corto,no,azul,ciudad,masculino,si,adulto
-tarzan,humano,no,si,cafe,largo,no,cafe,bosque,masculino,si,adulto
+tarzan,humano,no,si,cafe,largo,no,cafe,selva,masculino,si,adulto
 jane,humano,no,no,cafe,largo,no,amarillo,ciudad,femenino,si,adulto
 woody,objeto,no,si,cafe,corto,no,amarillo,ciudad,masculino,si,adulto
 dash,humano,no,si,rubio,corto,si,rojo,ciudad,masculino,si,nino
