@@ -606,7 +606,7 @@ atributo(tramp, es_protagonista, si).
 atributo(tramp, color_pelo, gris).
 atributo(tramp, pelo, corto).
 atributo(tramp, es_magico, no).
-atributo(tramp, color_vestimenta, rojo).
+atributo(tramp, color_vestimenta, na).
 atributo(tramp, vive_en, ciudad).
 atributo(tramp, genero, masculino).
 atributo(tramp, habla, si).
@@ -618,7 +618,7 @@ atributo(lady, es_protagonista, si).
 atributo(lady, color_pelo, naranja).
 atributo(lady, pelo, largo).
 atributo(lady, es_magico, no).
-atributo(lady, color_vestimenta, azul).
+atributo(lady, color_vestimenta, na).
 atributo(lady, vive_en, ciudad).
 atributo(lady, genero, femenino).
 atributo(lady, habla, si).
@@ -772,7 +772,7 @@ atributo(bullseye, especie, objeto).
 atributo(bullseye, es_villano, no).
 atributo(bullseye, es_protagonista, no).
 atributo(bullseye, color_pelo, ninguno).
-atributo(bullseye, pelo, sin_pelo).
+atributo(bullseye, pelo, corto).
 atributo(bullseye, es_magico, no).
 atributo(bullseye, color_vestimenta, cafe).
 atributo(bullseye, vive_en, ciudad).
