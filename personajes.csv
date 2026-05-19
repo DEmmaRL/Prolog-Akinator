@@ -33,7 +33,7 @@ flora,ser_magico,no,no,gris,corto,si,rojo,bosque,femenino,si,adulto
 merriweather,ser_magico,no,no,negro,corto,si,azul,bosque,femenino,si,adulto
 snow_white,humano,no,si,negro,corto,no,amarillo,bosque,femenino,si,adulto
 doc,ser_magico,no,no,blanco,corto,no,naranja,bosque,masculino,si,adulto
-dopey,ser_magico,no,no,blanco,sin_pelo,no,verde,bosque,masculino,si,anciano
+dopey,ser_magico,no,no,ninguno,sin_pelo,no,verde,bosque,masculino,si,anciano
 sleepy,ser_magico,no,no,blanco,corto,no,cafe,bosque,masculino,si,anciano
 sneezy,ser_magico,no,no,blanco,corto,no,amarillo,bosque,masculino,si,anciano
 happy,ser_magico,no,no,blanco,corto,no,azul,bosque,masculino,si,anciano
