@@ -6,6 +6,7 @@ valor_valido(especie,animal).
 valor_valido(especie,objeto).
 valor_valido(especie,insecto).
 valor_valido(especie,ser_magico).
+valor_valido(especie,juguete).
 
 valor_valido(es_villano,si).
 valor_valido(es_villano,no).
