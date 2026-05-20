@@ -95,8 +95,8 @@ scuttle,animal,no,no,blanco,corto,no,na,oceano,masculino,si,adulto
 flounder,animal,no,no,azul,corto,no,amarillo,oceano,masculino,si,nino
 sebastian,animal,no,no,rojo,corto,no,rojo,oceano,masculino,si,adulto
 boo,humano,no,si,cafe,corto,no,morado,ciudad,femenino,si,nino
-mike,animal,no,si,ninguno,sin_pelo,no,verde,ciudad,masculino,si,adulto
-sully,animal,no,si,ninguno,corto,no,azul,ciudad,masculino,si,adulto
+mike,monstruo,no,si,ninguno,sin_pelo,no,verde,ciudad,masculino,si,adulto
+sully,monstruo,no,si,ninguno,corto,no,azul,ciudad,masculino,si,adulto
 mulan,humano,no,si,negro,largo,no,rosa,pueblo,femenino,si,adulto
 shang,humano,no,si,negro,corto,no,cafe,pueblo,masculino,si,adulto
 mushu,ser_magico,no,si,ninguno,sin_pelo,si,rojo,pueblo,masculino,si,adulto

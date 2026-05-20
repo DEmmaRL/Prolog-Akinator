@@ -1152,7 +1152,7 @@ atributo(boo, genero, femenino).
 atributo(boo, habla, si).
 atributo(boo, edad, nino).
 
-atributo(mike, especie, animal).
+atributo(mike, especie, monstruo).
 atributo(mike, es_villano, no).
 atributo(mike, es_protagonista, si).
 atributo(mike, color_pelo, ninguno).
@@ -1164,7 +1164,7 @@ atributo(mike, genero, masculino).
 atributo(mike, habla, si).
 atributo(mike, edad, adulto).
 
-atributo(sully, especie, animal).
+atributo(sully, especie, monstruo).
 atributo(sully, es_villano, no).
 atributo(sully, es_protagonista, si).
 atributo(sully, color_pelo, ninguno).
