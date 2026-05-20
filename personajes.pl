@@ -738,7 +738,7 @@ atributo(rex, es_protagonista, no).
 atributo(rex, color_pelo, ninguno).
 atributo(rex, pelo, sin_pelo).
 atributo(rex, es_magico, no).
-atributo(rex, color_vestimenta, verde).
+atributo(rex, color_vestimenta, na).
 atributo(rex, vive_en, ciudad).
 atributo(rex, genero, masculino).
 atributo(rex, habla, si).
@@ -750,7 +750,7 @@ atributo(ham, es_protagonista, no).
 atributo(ham, color_pelo, ninguno).
 atributo(ham, pelo, sin_pelo).
 atributo(ham, es_magico, no).
-atributo(ham, color_vestimenta, rosa).
+atributo(ham, color_vestimenta, na).
 atributo(ham, vive_en, ciudad).
 atributo(ham, genero, masculino).
 atributo(ham, habla, si).
@@ -762,7 +762,7 @@ atributo(slinky, es_protagonista, no).
 atributo(slinky, color_pelo, ninguno).
 atributo(slinky, pelo, sin_pelo).
 atributo(slinky, es_magico, no).
-atributo(slinky, color_vestimenta, cafe).
+atributo(slinky, color_vestimenta, na).
 atributo(slinky, vive_en, ciudad).
 atributo(slinky, genero, masculino).
 atributo(slinky, habla, si).
@@ -870,7 +870,7 @@ atributo(eeyore, es_protagonista, no).
 atributo(eeyore, color_pelo, negro).
 atributo(eeyore, pelo, corto).
 atributo(eeyore, es_magico, no).
-atributo(eeyore, color_vestimenta, gris).
+atributo(eeyore, color_vestimenta, na).
 atributo(eeyore, vive_en, bosque).
 atributo(eeyore, genero, masculino).
 atributo(eeyore, habla, si).
@@ -894,7 +894,7 @@ atributo(tigger, es_protagonista, no).
 atributo(tigger, color_pelo, ninguno).
 atributo(tigger, pelo, sin_pelo).
 atributo(tigger, es_magico, no).
-atributo(tigger, color_vestimenta, naranja).
+atributo(tigger, color_vestimenta, na).
 atributo(tigger, vive_en, bosque).
 atributo(tigger, genero, masculino).
 atributo(tigger, habla, si).
@@ -990,7 +990,7 @@ atributo(cogsworth, es_protagonista, no).
 atributo(cogsworth, color_pelo, ninguno).
 atributo(cogsworth, pelo, sin_pelo).
 atributo(cogsworth, es_magico, si).
-atributo(cogsworth, color_vestimenta, cafe).
+atributo(cogsworth, color_vestimenta, na).
 atributo(cogsworth, vive_en, castillo).
 atributo(cogsworth, genero, masculino).
 atributo(cogsworth, habla, si).
@@ -1002,7 +1002,7 @@ atributo(lumiere, es_protagonista, no).
 atributo(lumiere, color_pelo, ninguno).
 atributo(lumiere, pelo, sin_pelo).
 atributo(lumiere, es_magico, si).
-atributo(lumiere, color_vestimenta, amarillo).
+atributo(lumiere, color_vestimenta, na).
 atributo(lumiere, vive_en, castillo).
 atributo(lumiere, genero, masculino).
 atributo(lumiere, habla, si).
@@ -1014,7 +1014,7 @@ atributo(mrs_potts, es_protagonista, no).
 atributo(mrs_potts, color_pelo, ninguno).
 atributo(mrs_potts, pelo, sin_pelo).
 atributo(mrs_potts, es_magico, si).
-atributo(mrs_potts, color_vestimenta, rosa).
+atributo(mrs_potts, color_vestimenta, na).
 atributo(mrs_potts, vive_en, castillo).
 atributo(mrs_potts, genero, femenino).
 atributo(mrs_potts, habla, si).
@@ -1122,7 +1122,7 @@ atributo(flounder, es_protagonista, no).
 atributo(flounder, color_pelo, azul).
 atributo(flounder, pelo, corto).
 atributo(flounder, es_magico, no).
-atributo(flounder, color_vestimenta, amarillo).
+atributo(flounder, color_vestimenta, na).
 atributo(flounder, vive_en, oceano).
 atributo(flounder, genero, masculino).
 atributo(flounder, habla, si).
@@ -1134,7 +1134,7 @@ atributo(sebastian, es_protagonista, no).
 atributo(sebastian, color_pelo, rojo).
 atributo(sebastian, pelo, corto).
 atributo(sebastian, es_magico, no).
-atributo(sebastian, color_vestimenta, rojo).
+atributo(sebastian, color_vestimenta, na).
 atributo(sebastian, vive_en, oceano).
 atributo(sebastian, genero, masculino).
 atributo(sebastian, habla, si).
@@ -1158,7 +1158,7 @@ atributo(mike, es_protagonista, si).
 atributo(mike, color_pelo, ninguno).
 atributo(mike, pelo, sin_pelo).
 atributo(mike, es_magico, no).
-atributo(mike, color_vestimenta, verde).
+atributo(mike, color_vestimenta, na).
 atributo(mike, vive_en, ciudad).
 atributo(mike, genero, masculino).
 atributo(mike, habla, si).
@@ -1170,7 +1170,7 @@ atributo(sully, es_protagonista, si).
 atributo(sully, color_pelo, ninguno).
 atributo(sully, pelo, corto).
 atributo(sully, es_magico, no).
-atributo(sully, color_vestimenta, azul).
+atributo(sully, color_vestimenta, na).
 atributo(sully, vive_en, ciudad).
 atributo(sully, genero, masculino).
 atributo(sully, habla, si).
@@ -1206,7 +1206,7 @@ atributo(mushu, es_protagonista, si).
 atributo(mushu, color_pelo, ninguno).
 atributo(mushu, pelo, sin_pelo).
 atributo(mushu, es_magico, si).
-atributo(mushu, color_vestimenta, rojo).
+atributo(mushu, color_vestimenta, na).
 atributo(mushu, vive_en, pueblo).
 atributo(mushu, genero, masculino).
 atributo(mushu, habla, si).
