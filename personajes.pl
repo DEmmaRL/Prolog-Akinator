@@ -882,7 +882,7 @@ atributo(rabbit, es_protagonista, no).
 atributo(rabbit, color_pelo, rubio).
 atributo(rabbit, pelo, corto).
 atributo(rabbit, es_magico, no).
-atributo(rabbit, color_vestimenta, amarillo).
+atributo(rabbit, color_vestimenta, na).
 atributo(rabbit, vive_en, bosque).
 atributo(rabbit, genero, masculino).
 atributo(rabbit, habla, si).
