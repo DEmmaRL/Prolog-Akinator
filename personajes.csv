@@ -109,13 +109,13 @@ cinderella,humano,no,si,rubio,largo,no,azul,castillo,femenino,si,adulto
 fairy_godmother,ser_magico,no,no,gris,corto,si,morado,otro,femenino,si,anciano
 jaq,animal,no,no,cafe,corto,no,rojo,castillo,masculino,si,adulto
 gus,animal,no,no,cafe,corto,no,verde,castillo,masculino,si,adulto
-dumbo,animal,no,si,ninguno,sin_pelo,no,na,otro,masculino,si,nino
+dumbo,animal,no,si,ninguno,sin_pelo,no,na,otro,masculino,no,nino
 hercules,humano,no,si,naranja,corto,no,naranja,ciudad,masculino,si,adulto
 pegasus,ser_magico,no,no,azul,corto,si,blanco,ciudad,masculino,si,adulto
 meg,humano,no,si,cafe,largo,no,morado,ciudad,femenino,si,adulto
 phil,ser_magico,no,no,naranja,sin_pelo,no,na,ciudad,masculino,si,adulto
-quasimodo,humano,no,si,rojo,corto,no,verde,pueblo,masculino,si,adulto
-esmeralda,humano,no,si,negro,largo,no,blanco,pueblo,femenino,si,adulto
+quasimodo,humano,no,si,rojo,corto,no,verde,ciudad,masculino,si,adulto
+esmeralda,humano,no,si,negro,largo,no,blanco,ciudad,femenino,si,adulto
 mr_incredible,humano,no,si,rubio,corto,si,rojo,ciudad,masculino,si,adulto
 elastigirl,humano,no,si,cafe,corto,si,rojo,ciudad,femenino,si,adulto
 violet,humano,no,si,negro,largo,si,rojo,ciudad,femenino,si,nino

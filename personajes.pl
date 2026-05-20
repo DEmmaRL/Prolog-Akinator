@@ -1329,7 +1329,7 @@ atributo(dumbo, es_magico, no).
 atributo(dumbo, color_vestimenta, na).
 atributo(dumbo, vive_en, otro).
 atributo(dumbo, genero, masculino).
-atributo(dumbo, habla, si).
+atributo(dumbo, habla, no).
 atributo(dumbo, edad, nino).
 
 atributo(hercules, especie, humano).
@@ -1387,7 +1387,7 @@ atributo(quasimodo, color_pelo, rojo).
 atributo(quasimodo, pelo, corto).
 atributo(quasimodo, es_magico, no).
 atributo(quasimodo, color_vestimenta, verde).
-atributo(quasimodo, vive_en, pueblo).
+atributo(quasimodo, vive_en, ciudad).
 atributo(quasimodo, genero, masculino).
 atributo(quasimodo, habla, si).
 atributo(quasimodo, edad, adulto).
@@ -1399,7 +1399,7 @@ atributo(esmeralda, color_pelo, negro).
 atributo(esmeralda, pelo, largo).
 atributo(esmeralda, es_magico, no).
 atributo(esmeralda, color_vestimenta, blanco).
-atributo(esmeralda, vive_en, pueblo).
+atributo(esmeralda, vive_en, ciudad).
 atributo(esmeralda, genero, femenino).
 atributo(esmeralda, habla, si).
 atributo(esmeralda, edad, adulto).
