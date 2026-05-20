@@ -1,6 +1,6 @@
 % test.pl - Simulación automática del juego para todos los personajes.
 % Usa construir_pregunta/3 igual que el sistema real.
-% Lo único que no testea es read/1 (código de SWI-Prolog, no nuestro).
+% Lo único que no testea es read/1.
 :- consult('main.pl').
 
 % Simula el juego para un personaje objetivo.
@@ -15,12 +15,11 @@ test_preguntar(_Objetivo, [Unico], Qs, Unico, Qs).
 % Caso base: sin candidatos
 test_preguntar(_Objetivo, [], Qs, no_encontrado, Qs).
 
-% Caso recursivo: misma lógica que preguntar/1 pero sin read
 test_preguntar(Objetivo, Candidatos, QsAcc, Encontrado, Qs) :-
     Candidatos = [_,_|_],
     mejor_atributo(Candidatos, Attr),
     valor_mas_frecuente(Attr, Candidatos, Val),
-    construir_pregunta(Attr, Val, Pregunta),          % igual que el sistema real
+    construir_pregunta(Attr, Val, Pregunta),  
     (atributo(Objetivo, Attr, Val) -> Resp = si ; Resp = no),
     (   Resp == si
     ->  filtrar(Attr, Val, Candidatos, Restantes)
@@ -64,9 +63,9 @@ test_detalle(Objetivo) :-
     nl,
     format("Personaje: ~w~n", [Objetivo]),
     (Objetivo == Encontrado ->
-        format("Resultado: ✓ encontrado~n")
+        format("Resultado: O encontrado~n")
     ;
-        format("Resultado: ✗ encontró ~w~n", [Encontrado])
+        format("Resultado: X encontró ~w~n", [Encontrado])
     ),
     length(Preguntas, N),
     format("Preguntas (~w):~n", [N]),
