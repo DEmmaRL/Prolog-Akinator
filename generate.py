@@ -64,7 +64,8 @@ VALID = {
         "otro",
         "otro_mundo",
         "pueblo",
-        "juego"
+        "juego",
+        "sabana"
         },
 
     "genero":{
