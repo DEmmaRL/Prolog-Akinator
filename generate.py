@@ -9,7 +9,9 @@ VALID = {
         "objeto",
         "insecto",
         "ser_magico",
-        "juguete"
+        "juguete",
+        "sirena",
+        "monstruo"
         },
 
     "es_villano": {
