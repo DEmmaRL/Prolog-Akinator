@@ -150,6 +150,24 @@ strong {
   margin-bottom: 1rem;
 }
 
+/* CUCEI Watermark */
+.slidev-layout::after {
+  content: '';
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  background-image: url('/screenshots/Escudo_CUCEI.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  filter: brightness(2) contrast(1.2);
+  pointer-events: none;
+  z-index: 100;
+}
+
 /* Click Animations (fade-in effect) */
 .slidev-vclick-target {
   transition: opacity 400ms ease, transform 400ms ease;
