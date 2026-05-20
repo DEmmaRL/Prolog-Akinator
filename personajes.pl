@@ -1080,14 +1080,14 @@ atributo(sally, genero, femenino).
 atributo(sally, habla, si).
 atributo(sally, edad, adulto).
 
-atributo(ariel, especie, humano).
+atributo(ariel, especie, ser_magico).
 atributo(ariel, es_villano, no).
 atributo(ariel, es_protagonista, si).
 atributo(ariel, color_pelo, rojo).
 atributo(ariel, pelo, largo).
 atributo(ariel, es_magico, no).
-atributo(ariel, color_vestimenta, rosa).
-atributo(ariel, vive_en, castillo).
+atributo(ariel, color_vestimenta, morado).
+atributo(ariel, vive_en, oceano).
 atributo(ariel, genero, femenino).
 atributo(ariel, habla, si).
 atributo(ariel, edad, adulto).

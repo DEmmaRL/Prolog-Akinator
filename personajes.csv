@@ -89,7 +89,7 @@ merida,humano,no,si,naranja,largo,no,azul,castillo,femenino,si,adulto
 boys,humano,no,no,naranja,corto,no,azul,castillo,masculino,no,nino
 mcqueen,objeto,no,si,ninguno,sin_pelo,no,rojo,pueblo,masculino,si,adulto
 sally,objeto,no,si,ninguno,sin_pelo,no,azul,pueblo,femenino,si,adulto
-ariel,humano,no,si,rojo,largo,no,rosa,castillo,femenino,si,adulto
+ariel,ser_magico,no,si,rojo,largo,no,morado,oceano,femenino,si,adulto
 eric,humano,no,si,negro,corto,no,blanco,castillo,masculino,si,adulto
 scuttle,animal,no,no,blanco,corto,no,na,oceano,masculino,si,adulto
 flounder,animal,no,no,azul,corto,no,amarillo,oceano,masculino,si,nino
