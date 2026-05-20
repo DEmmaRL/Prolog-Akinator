@@ -1,0 +1,151 @@
+/* ICPC Theme for Slidev */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+
+:root {
+  /* ICPC brand colors */
+  --color-icpc-blue:   #4C83C3;
+  --color-icpc-yellow: #FDBA12;
+  --color-icpc-green:  #0D5937;
+  --color-icpc-red:    #B22C1B;
+
+  /* Neutrals */
+  --color-cream:   #F5F3EE;
+  --color-ink:     #111111;
+  --color-gray-50: #ECEAE3;
+  --color-gray-100:#D9D9D9;
+  --color-gray-300:#B8B6AE;
+  --color-gray-500:#6F6D66;
+  --color-gray-700:#3B3A36;
+
+  /* Slidev overrides */
+  --slidev-theme-primary: var(--color-icpc-blue);
+  --slidev-theme-accents-blue: var(--color-icpc-blue);
+  --slidev-theme-accents-yellow: var(--color-icpc-yellow);
+  --slidev-theme-accents-green: var(--color-icpc-green);
+  --slidev-theme-accents-red: var(--color-icpc-red);
+
+  /* Fonts */
+  --slidev-font-sans: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --slidev-font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base styles */
+.slidev-layout {
+  background-color: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--slidev-font-sans);
+}
+
+/* Code blocks */
+.slidev-code, pre, code {
+  font-family: var(--slidev-font-mono);
+}
+
+/* Code blocks */
+.slidev-code {
+  --prism-background: var(--color-gray-700) !important;
+  --prism-foreground: var(--color-cream) !important;
+}
+
+pre {
+  background-color: var(--color-gray-700) !important;
+  border: 1px solid var(--color-gray-500);
+}
+
+/* Links */
+a {
+  color: var(--color-icpc-blue);
+  border-bottom-color: var(--color-icpc-blue);
+}
+
+a:hover {
+  color: var(--color-icpc-yellow);
+  border-bottom-color: var(--color-icpc-yellow);
+}
+
+/* Headings */
+h1 {
+  color: var(--color-icpc-blue);
+  font-weight: 700;
+}
+
+h2, h3, h4 {
+  color: var(--color-icpc-blue);
+}
+
+/* Marks (highlights) */
+mark {
+  background-color: var(--color-icpc-yellow);
+  color: var(--color-ink);
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+}
+
+/* Tables */
+table {
+  border-color: var(--color-gray-300);
+}
+
+th {
+  background-color: var(--color-icpc-blue);
+  color: var(--color-cream);
+}
+
+td {
+  border-color: var(--color-gray-500);
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-gray-700);
+}
+
+/* Buttons and interactive elements */
+button, .slidev-icon-btn {
+  color: var(--color-icpc-blue);
+}
+
+button:hover, .slidev-icon-btn:hover {
+  color: var(--color-icpc-yellow);
+  background-color: rgba(253, 186, 18, 0.1);
+}
+
+/* Code inline */
+code {
+  background-color: var(--color-gray-700);
+  color: var(--color-cream);
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left-color: var(--color-icpc-blue);
+  background-color: rgba(76, 131, 195, 0.05);
+}
+
+/* Lists */
+ul, ol {
+  color: var(--color-cream);
+}
+
+li::marker {
+  color: var(--color-icpc-blue);
+}
+
+/* Strong/Bold */
+strong {
+  color: var(--color-icpc-yellow);
+}
+
+/* Slide numbers and navigation */
+.slidev-page-number {
+  color: var(--color-gray-500);
+}
+
+/* Cover slide specific */
+.slidev-layout.cover h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
