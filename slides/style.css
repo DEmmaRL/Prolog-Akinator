@@ -149,3 +149,14 @@ strong {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
+/* Click Animations (fade-in effect) */
+.slidev-vclick-target {
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(6px);
+  pointer-events: none;
+}

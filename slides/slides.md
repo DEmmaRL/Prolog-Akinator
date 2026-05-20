@@ -34,14 +34,14 @@ layout: center
 
 # Descripción
 
-<v-clicks fade-in>
+<v-click>
 
 - El usuario piensa en un personaje Disney
 - El sistema hace preguntas de sí/no
 - Adivina el personaje en <v-mark color="violet">aproximadamente 8 preguntas</v-mark>
 - <v-mark color="violet">100% de precisión</v-mark> con 120 personajes
 
-</v-clicks>
+</v-click>
 
 ---
 
@@ -49,14 +49,14 @@ layout: center
 
 Separación entre datos y lógica de inferencia
 
-<v-clicks fade-in>
+<v-click>
 
 - **CSV** contiene los datos
 - **Python** valida y genera
 - **Prolog** ejecuta la inferencia
 - **Usuario** interactúa con el sistema
 
-</v-clicks>
+</v-click>
 
 <v-click>
 
@@ -85,13 +85,13 @@ graph LR
 
 # Base de Conocimiento
 
-<v-clicks fade-in>
+<v-click>
 
 - <v-mark color="violet">120 personajes</v-mark> Disney
 - <v-mark color="violet">13 atributos</v-mark> discriminantes
 - Desde clásicos hasta contemporáneos
 
-</v-clicks>
+</v-click>
 
 <v-click>
 
@@ -113,7 +113,7 @@ graph LR
 
 # Flujo de Datos
 
-<v-clicks fade-in>
+<v-click>
 
 **personajes.csv**
 - Fuente de verdad del sistema
@@ -130,7 +130,7 @@ graph LR
 - Contiene hechos Prolog
 - No se edita manualmente
 
-</v-clicks>
+</v-click>
 
 ---
 layout: two-cols
@@ -140,13 +140,13 @@ layout: two-cols
 
 Estrategia basada en <v-mark color="violet">entropía de información</v-mark>
 
-<v-clicks fade-in>
+<v-click>
 
 - Selecciona el atributo con más valores distintos
 - Pregunta por el valor más frecuente
 - <v-mark color="violet">Maximiza la eliminación</v-mark> de candidatos
 
-</v-clicks>
+</v-click>
 
 ::right::
 
@@ -173,7 +173,7 @@ mejor_atributo(Candidatos, Mejor) :-
 
 # Ejemplo de Entropía
 
-<v-clicks fade-in>
+<v-click>
 
 Escenario con 60 candidatos restantes
 
@@ -189,13 +189,13 @@ Escenario con 60 candidatos restantes
 
 El motor siempre selecciona la pregunta más discriminante
 
-</v-clicks>
+</v-click>
 
 ---
 
 # Manejo de Atributos Opcionales
 
-<v-clicks fade-in>
+<v-click>
 
 **Problema**
 
@@ -213,13 +213,13 @@ El motor ignora atributos donde algún candidato tiene valor `null`
 
 Solo pregunta por un atributo cuando todos los candidatos actuales tienen valor definido
 
-</v-clicks>
+</v-click>
 
 ---
 
 # Construcción de Preguntas
 
-<v-clicks fade-in>
+<v-click>
 
 **Plantillas con interpolación**
 
@@ -237,7 +237,7 @@ plantilla_na(color_vestimenta, "¿Tu personaje no usa ropa?").
 - `vive_en = bosque` genera "¿Tu personaje vive en bosque?"
 - `color_vestimenta = na` genera "¿Tu personaje no usa ropa?"
 
-</v-clicks>
+</v-click>
 
 ---
 layout: two-cols
@@ -245,13 +245,13 @@ layout: two-cols
 
 # Testing Automático
 
-<v-clicks fade-in>
+<v-click>
 
 - Simula el juego para cada personaje
 - Usa el mismo motor de producción
 - Reporta precisión y eficiencia
 
-</v-clicks>
+</v-click>
 
 ::right::
 
@@ -306,7 +306,7 @@ Muestra el trace completo del proceso de inferencia
 
 # Validación de Datos
 
-<v-clicks fade-in>
+<v-click>
 
 **generate.py valida antes de generar Prolog**
 
@@ -327,13 +327,13 @@ VALID = {
 
 <v-mark color="violet">Imposible generar</v-mark> una base de conocimiento inconsistente
 
-</v-clicks>
+</v-click>
 
 ---
 
 # Escalabilidad
 
-<v-clicks fade-in>
+<v-click>
 
 **Agregar un personaje**
 1. Editar `personajes.csv` (una línea)
@@ -350,7 +350,7 @@ VALID = {
 
 El sistema no está acoplado al dominio Disney. Puede adaptarse a otros dominios cambiando solo los datos.
 
-</v-clicks>
+</v-click>
 
 ---
 layout: center
@@ -358,7 +358,7 @@ layout: center
 
 # Resultados
 
-<v-clicks fade-in>
+<v-click>
 
 - <v-mark color="violet">100% de precisión</v-mark> en 120 personajes
 - <v-mark color="violet">7.7 preguntas</v-mark> en promedio
@@ -367,13 +367,13 @@ layout: center
 - Testing automático garantiza corrección
 - Documentación completa en README
 
-</v-clicks>
+</v-click>
 
 ---
 
 # Conclusiones
 
-<v-clicks fade-in>
+<v-click>
 
 **Separación de responsabilidades**
 
@@ -395,7 +395,7 @@ El código declarativo es conciso y expresivo para este tipo de problemas
 
 Agregar personajes o atributos requiere cambios mínimos
 
-</v-clicks>
+</v-click>
 
 ---
 layout: center
