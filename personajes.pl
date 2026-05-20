@@ -528,7 +528,7 @@ atributo(jane, genero, femenino).
 atributo(jane, habla, si).
 atributo(jane, edad, adulto).
 
-atributo(woody, especie, objeto).
+atributo(woody, especie, juguete).
 atributo(woody, es_villano, no).
 atributo(woody, es_protagonista, si).
 atributo(woody, color_pelo, cafe).
@@ -720,7 +720,7 @@ atributo(zazu, genero, masculino).
 atributo(zazu, habla, si).
 atributo(zazu, edad, adulto).
 
-atributo(buzz_lightyear, especie, objeto).
+atributo(buzz_lightyear, especie, juguete).
 atributo(buzz_lightyear, es_villano, no).
 atributo(buzz_lightyear, es_protagonista, si).
 atributo(buzz_lightyear, color_pelo, cafe).
@@ -732,7 +732,7 @@ atributo(buzz_lightyear, genero, masculino).
 atributo(buzz_lightyear, habla, si).
 atributo(buzz_lightyear, edad, adulto).
 
-atributo(rex, especie, objeto).
+atributo(rex, especie, juguete).
 atributo(rex, es_villano, no).
 atributo(rex, es_protagonista, no).
 atributo(rex, color_pelo, ninguno).
@@ -744,7 +744,7 @@ atributo(rex, genero, masculino).
 atributo(rex, habla, si).
 atributo(rex, edad, adulto).
 
-atributo(ham, especie, objeto).
+atributo(ham, especie, juguete).
 atributo(ham, es_villano, no).
 atributo(ham, es_protagonista, no).
 atributo(ham, color_pelo, ninguno).
@@ -756,7 +756,7 @@ atributo(ham, genero, masculino).
 atributo(ham, habla, si).
 atributo(ham, edad, adulto).
 
-atributo(slinky, especie, objeto).
+atributo(slinky, especie, juguete).
 atributo(slinky, es_villano, no).
 atributo(slinky, es_protagonista, no).
 atributo(slinky, color_pelo, ninguno).
@@ -768,10 +768,10 @@ atributo(slinky, genero, masculino).
 atributo(slinky, habla, si).
 atributo(slinky, edad, adulto).
 
-atributo(bullseye, especie, objeto).
+atributo(bullseye, especie, juguete).
 atributo(bullseye, es_villano, no).
 atributo(bullseye, es_protagonista, no).
-atributo(bullseye, color_pelo, ninguno).
+atributo(bullseye, color_pelo, cafe).
 atributo(bullseye, pelo, corto).
 atributo(bullseye, es_magico, no).
 atributo(bullseye, color_vestimenta, cafe).
@@ -780,23 +780,23 @@ atributo(bullseye, genero, masculino).
 atributo(bullseye, habla, no).
 atributo(bullseye, edad, adulto).
 
-atributo(jesse, especie, objeto).
+atributo(jesse, especie, juguete).
 atributo(jesse, es_villano, no).
 atributo(jesse, es_protagonista, si).
 atributo(jesse, color_pelo, rojo).
 atributo(jesse, pelo, largo).
 atributo(jesse, es_magico, no).
-atributo(jesse, color_vestimenta, azul).
+atributo(jesse, color_vestimenta, blanco).
 atributo(jesse, vive_en, ciudad).
 atributo(jesse, genero, femenino).
 atributo(jesse, habla, si).
 atributo(jesse, edad, adulto).
 
-atributo(mr_potatohead, especie, objeto).
+atributo(mr_potatohead, especie, juguete).
 atributo(mr_potatohead, es_villano, no).
 atributo(mr_potatohead, es_protagonista, si).
-atributo(mr_potatohead, color_pelo, negro).
-atributo(mr_potatohead, pelo, corto).
+atributo(mr_potatohead, color_pelo, ninguno).
+atributo(mr_potatohead, pelo, sin_pelo).
 atributo(mr_potatohead, es_magico, no).
 atributo(mr_potatohead, color_vestimenta, na).
 atributo(mr_potatohead, vive_en, ciudad).
@@ -840,7 +840,7 @@ atributo(felix, genero, masculino).
 atributo(felix, habla, si).
 atributo(felix, edad, adulto).
 
-atributo(winnie_the_pooh, especie, animal).
+atributo(winnie_the_pooh, especie, juguete).
 atributo(winnie_the_pooh, es_villano, no).
 atributo(winnie_the_pooh, es_protagonista, si).
 atributo(winnie_the_pooh, color_pelo, ninguno).
@@ -852,7 +852,7 @@ atributo(winnie_the_pooh, genero, masculino).
 atributo(winnie_the_pooh, habla, si).
 atributo(winnie_the_pooh, edad, adulto).
 
-atributo(piglet, especie, animal).
+atributo(piglet, especie, juguete).
 atributo(piglet, es_villano, no).
 atributo(piglet, es_protagonista, si).
 atributo(piglet, color_pelo, ninguno).
@@ -864,7 +864,7 @@ atributo(piglet, genero, masculino).
 atributo(piglet, habla, si).
 atributo(piglet, edad, adulto).
 
-atributo(eeyore, especie, animal).
+atributo(eeyore, especie, juguete).
 atributo(eeyore, es_villano, no).
 atributo(eeyore, es_protagonista, no).
 atributo(eeyore, color_pelo, negro).
@@ -879,7 +879,7 @@ atributo(eeyore, edad, adulto).
 atributo(rabbit, especie, animal).
 atributo(rabbit, es_villano, no).
 atributo(rabbit, es_protagonista, no).
-atributo(rabbit, color_pelo, blanco).
+atributo(rabbit, color_pelo, rubio).
 atributo(rabbit, pelo, corto).
 atributo(rabbit, es_magico, no).
 atributo(rabbit, color_vestimenta, amarillo).
@@ -888,7 +888,7 @@ atributo(rabbit, genero, masculino).
 atributo(rabbit, habla, si).
 atributo(rabbit, edad, adulto).
 
-atributo(tigger, especie, animal).
+atributo(tigger, especie, juguete).
 atributo(tigger, es_villano, no).
 atributo(tigger, es_protagonista, no).
 atributo(tigger, color_pelo, ninguno).
@@ -902,24 +902,24 @@ atributo(tigger, edad, adulto).
 
 atributo(berlioz, especie, animal).
 atributo(berlioz, es_villano, no).
-atributo(berlioz, es_protagonista, no).
+atributo(berlioz, es_protagonista, si).
 atributo(berlioz, color_pelo, gris).
 atributo(berlioz, pelo, corto).
 atributo(berlioz, es_magico, no).
 atributo(berlioz, color_vestimenta, na).
-atributo(berlioz, vive_en, otro).
+atributo(berlioz, vive_en, ciudad).
 atributo(berlioz, genero, masculino).
 atributo(berlioz, habla, si).
 atributo(berlioz, edad, nino).
 
 atributo(toulouse, especie, animal).
 atributo(toulouse, es_villano, no).
-atributo(toulouse, es_protagonista, no).
+atributo(toulouse, es_protagonista, si).
 atributo(toulouse, color_pelo, naranja).
 atributo(toulouse, pelo, corto).
 atributo(toulouse, es_magico, no).
 atributo(toulouse, color_vestimenta, na).
-atributo(toulouse, vive_en, otro).
+atributo(toulouse, vive_en, ciudad).
 atributo(toulouse, genero, masculino).
 atributo(toulouse, habla, si).
 atributo(toulouse, edad, nino).
@@ -927,10 +927,10 @@ atributo(toulouse, edad, nino).
 atributo(bambi, especie, animal).
 atributo(bambi, es_villano, no).
 atributo(bambi, es_protagonista, si).
-atributo(bambi, color_pelo, ninguno).
-atributo(bambi, pelo, sin_pelo).
+atributo(bambi, color_pelo, cafe).
+atributo(bambi, pelo, corto).
 atributo(bambi, es_magico, no).
-atributo(bambi, color_vestimenta, cafe).
+atributo(bambi, color_vestimenta, na).
 atributo(bambi, vive_en, bosque).
 atributo(bambi, genero, masculino).
 atributo(bambi, habla, si).
@@ -966,7 +966,7 @@ atributo(belle, es_protagonista, si).
 atributo(belle, color_pelo, cafe).
 atributo(belle, pelo, largo).
 atributo(belle, es_magico, no).
-atributo(belle, color_vestimenta, azul).
+atributo(belle, color_vestimenta, amarillo).
 atributo(belle, vive_en, castillo).
 atributo(belle, genero, femenino).
 atributo(belle, habla, si).
@@ -1014,7 +1014,7 @@ atributo(mrs_potts, es_protagonista, no).
 atributo(mrs_potts, color_pelo, ninguno).
 atributo(mrs_potts, pelo, sin_pelo).
 atributo(mrs_potts, es_magico, si).
-atributo(mrs_potts, color_vestimenta, blanco).
+atributo(mrs_potts, color_vestimenta, rosa).
 atributo(mrs_potts, vive_en, castillo).
 atributo(mrs_potts, genero, femenino).
 atributo(mrs_potts, habla, si).
@@ -1063,7 +1063,7 @@ atributo(mcqueen, color_pelo, ninguno).
 atributo(mcqueen, pelo, sin_pelo).
 atributo(mcqueen, es_magico, no).
 atributo(mcqueen, color_vestimenta, rojo).
-atributo(mcqueen, vive_en, otro).
+atributo(mcqueen, vive_en, pueblo).
 atributo(mcqueen, genero, masculino).
 atributo(mcqueen, habla, si).
 atributo(mcqueen, edad, adulto).
@@ -1075,7 +1075,7 @@ atributo(sally, color_pelo, ninguno).
 atributo(sally, pelo, sin_pelo).
 atributo(sally, es_magico, no).
 atributo(sally, color_vestimenta, azul).
-atributo(sally, vive_en, otro).
+atributo(sally, vive_en, pueblo).
 atributo(sally, genero, femenino).
 atributo(sally, habla, si).
 atributo(sally, edad, adulto).
