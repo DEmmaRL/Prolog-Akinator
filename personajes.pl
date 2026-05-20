@@ -1080,7 +1080,7 @@ atributo(sally, genero, femenino).
 atributo(sally, habla, si).
 atributo(sally, edad, adulto).
 
-atributo(ariel, especie, ser_magico).
+atributo(ariel, especie, sirena).
 atributo(ariel, es_villano, no).
 atributo(ariel, es_protagonista, si).
 atributo(ariel, color_pelo, rojo).
@@ -1143,7 +1143,7 @@ atributo(sebastian, edad, adulto).
 atributo(boo, especie, humano).
 atributo(boo, es_villano, no).
 atributo(boo, es_protagonista, si).
-atributo(boo, color_pelo, negro).
+atributo(boo, color_pelo, cafe).
 atributo(boo, pelo, corto).
 atributo(boo, es_magico, no).
 atributo(boo, color_vestimenta, morado).
