@@ -20,16 +20,24 @@ mdc: true
 
 # Akinator Disney
 
+<div v-motion :initial="{ y: -50, opacity: 0 }" :enter="{ y: 0, opacity: 1, transition: { duration: 600 } }">
+
 Sistema Experto en Prolog
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Presiona Espacio para continuar <carbon:arrow-right class="inline"/>
-  </span>
+</div>
+
+<div class="mt-16 text-base" style="line-height: 1.8;">
+
+Dante Cortés Torres · 220483598  
+Angel Karim Barajas Castillo · 220568658  
+Alicia Lizbeth Pérez Gómez · 224004244  
+Diego Emmanuel Rivera López · 223379058
+
 </div>
 
 ---
 layout: center
+transition: slide-up
 ---
 
 # Descripción
@@ -43,6 +51,8 @@ layout: center
 
 </v-click>
 
+---
+transition: fade
 ---
 
 # Arquitectura
@@ -59,6 +69,8 @@ Separación entre datos y lógica de inferencia
 </v-click>
 
 <v-click>
+
+<div v-motion :initial="{ scale: 0.8, opacity: 0 }" :enter="{ scale: 1, opacity: 1, transition: { duration: 500 } }">
 
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'fontSize':'14px', 'primaryColor':'#4C83C3', 'primaryTextColor':'#F5F3EE', 'primaryBorderColor':'#3B3A36', 'lineColor':'#D9D9D9', 'secondaryColor':'#FDBA12', 'tertiaryColor':'#0D5937'}}}%%
@@ -79,11 +91,17 @@ graph LR
     style G fill:#6F6D66,stroke:#D9D9D9,stroke-width:2px,color:#F5F3EE
 ```
 
+</div>
+
 </v-click>
 
 ---
+transition: slide-down
+---
 
 # Base de Conocimiento
+
+<div v-motion :initial="{ x: -50, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { duration: 500, delay: 100 } }">
 
 <v-click>
 
@@ -92,6 +110,8 @@ graph LR
 - Desde clásicos hasta contemporáneos
 
 </v-click>
+
+</div>
 
 <v-click>
 
@@ -134,25 +154,24 @@ graph LR
 
 ---
 layout: two-cols
+transition: slide-right
 ---
 
 # Motor de Inferencia
 
 Estrategia basada en <v-mark color="violet">entropía de información</v-mark>
 
-<v-click>
-
 - Selecciona el atributo con más valores distintos
 - Pregunta por el valor más frecuente
 - <v-mark color="violet">Maximiza la eliminación</v-mark> de candidatos
-
-</v-click>
 
 ::right::
 
 <v-click>
 
-```prolog
+<div v-motion :initial="{ x: -30, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { duration: 500 } }">
+
+```prolog {6-7|all}
 mejor_atributo(Candidatos, Mejor) :-
     findall(
         Score-Attr,
@@ -167,11 +186,15 @@ mejor_atributo(Candidatos, Mejor) :-
     max_member(_-Mejor, Pares).
 ```
 
+</div>
+
 </v-click>
 
 ---
 
 # Ejemplo de Entropía
+
+<div v-motion :initial="{ rotateX: -15, opacity: 0 }" :enter="{ rotateX: 0, opacity: 1, transition: { duration: 600 } }">
 
 <v-click>
 
@@ -190,6 +213,8 @@ Escenario con 60 candidatos restantes
 El motor siempre selecciona la pregunta más discriminante
 
 </v-click>
+
+</div>
 
 ---
 
@@ -223,13 +248,13 @@ Solo pregunta por un atributo cuando todos los candidatos actuales tienen valor 
 
 **Plantillas con interpolación**
 
-```prolog
+```prolog {1|all}
 plantilla_pregunta(vive_en, "¿Tu personaje vive en {valor}?").
 ```
 
 **Casos especiales para valores na**
 
-```prolog
+```prolog {1|all}
 plantilla_na(color_vestimenta, "¿Tu personaje no usa ropa?").
 ```
 
@@ -354,9 +379,12 @@ El sistema no está acoplado al dominio Disney. Puede adaptarse a otros dominios
 
 ---
 layout: center
+transition: view-transition
 ---
 
 # Resultados
+
+<div v-motion :initial="{ scale: 0.5, opacity: 0 }" :enter="{ scale: 1, opacity: 1, transition: { type: 'spring', stiffness: 100 } }">
 
 <v-click>
 
@@ -368,6 +396,8 @@ layout: center
 - Documentación completa en README
 
 </v-click>
+
+</div>
 
 ---
 
@@ -400,22 +430,10 @@ Agregar personajes o atributos requiere cambios mínimos
 ---
 layout: center
 class: text-center
+transition: fade-out
 ---
 
-# Demostración
-
-Ejecución en terminal
-
-<div class="pt-12 text-sm opacity-50">
-Presiona ESC para salir de la presentación
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Preguntas
+# Repositorio
 
 <div class="pt-12">
   <a href="https://github.com/DEmmaRL/Prolog-Akinator" target="_blank" class="text-xl">
