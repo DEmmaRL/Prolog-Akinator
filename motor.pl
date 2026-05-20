@@ -23,7 +23,8 @@ mejor_atributo( Candidatos, Mejor ) :-
         findall(                                                                                           
         Score-Attr,                                                   
         (                                                                                              
-            atributo( Attr ),                                             
+            atributo( Attr ),
+            \+ (member(P, Candidatos), atributo(P, Attr, null)),
             score( Attr, Candidatos, Score ) % calcula el score de cada atributo                              
         ),                                                                                             
         Pares                

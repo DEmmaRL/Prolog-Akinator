@@ -67,6 +67,20 @@ valor_valido(genero,na).
 valor_valido(habla,si).
 valor_valido(habla,no).
 
+valor_valido(color_cuerpo, rojo).
+valor_valido(color_cuerpo, azul).
+valor_valido(color_cuerpo, verde).
+valor_valido(color_cuerpo, amarillo).
+valor_valido(color_cuerpo, negro).
+valor_valido(color_cuerpo, blanco).
+valor_valido(color_cuerpo, morado).
+valor_valido(color_cuerpo, naranja).
+valor_valido(color_cuerpo, rosa).
+valor_valido(color_cuerpo, cafe).
+valor_valido(color_cuerpo, gris).
+valor_valido(color_cuerpo, na).
+valor_valido(color_cuerpo, null).
+
 valor_valido(edad, adulto).
 valor_valido(edad, nino).
 valor_valido(edad, bebe).
@@ -84,6 +98,7 @@ atributo(color_vestimenta).
 atributo(vive_en).
 atributo(genero).
 atributo(habla).
+atributo(color_cuerpo).
 atributo(edad).
 
 % Plantillas de preguntas (el {valor} se reemplaza dinámicamente)
@@ -97,6 +112,7 @@ plantilla_pregunta(color_vestimenta, "¿Tu personaje viste de {valor}?").
 plantilla_pregunta(vive_en, "¿Tu personaje vive en {valor}?").
 plantilla_pregunta(genero, "¿Tu personaje es {valor}?").
 plantilla_pregunta(habla, "¿Tu personaje habla?").
+plantilla_pregunta(color_cuerpo, "¿El color principal del cuerpo de tu personaje es {valor}?").
 plantilla_pregunta(edad, "¿Tu personaje es un {valor}?").
 
 % Plantillas para cuando el valor es 'na' (no aplica)

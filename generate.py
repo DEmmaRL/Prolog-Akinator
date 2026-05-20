@@ -76,6 +76,11 @@ VALID = {
     "habla": {"si", "no"},
 
     "edad": {"adulto", "nino", "bebe" , "adolescente" , "anciano"},
+
+    "color_cuerpo": {
+        "rojo", "azul", "verde", "amarillo", "negro", "blanco",
+        "morado", "naranja", "rosa", "cafe", "gris", "na", "null"
+    },
 }
 
 COLUMNAS = {"nombre"} | VALID.keys()
