@@ -117,11 +117,11 @@ transition: slide-down
 
 <div class="mt-8">
 
-| Atributo | Valores posibles |
+| Atributo | Valores posibles (muestras) |
 |----------|------------------|
-| especie | humano, animal, objeto, ser_magico, juguete, sirena, monstruo |
-| vive_en | castillo, bosque, selva, mar, ciudad, desierto, sabana, oceano |
-| color_pelo | negro, rubio, rojo, cafe, blanco, morado, naranja, gris, azul |
+| especie | humano, animal, objeto, insecto, ser_magico, juguete, sirena, monstruo |
+| vive_en | castillo, bosque, selva, mar, ciudad, desierto, pantano, oceano, pueblo, sabana, juego |
+| color_pelo | negro, rubio, rojo, cafe, blanco, morado, naranja, gris, azul, ninguno |
 | habla | si, no |
 | edad | adulto, nino, bebe, adolescente, anciano |
 
