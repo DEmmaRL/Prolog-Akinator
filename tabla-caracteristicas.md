@@ -112,9 +112,9 @@ Hábitat o lugar donde vive el personaje.
 | oceano | Vive en el océano |
 | pueblo | Vive en un pueblo |
 | sabana | Vive en la sabana |
+| juego | Vive dentro de un videojuego |
 | otro | Otro lugar no especificado |
 | otro_mundo | Vive en un mundo fantástico |
-| juego | Vive dentro de un videojuego |
 
 ### 9. Género
 

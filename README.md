@@ -73,7 +73,7 @@ git commit                ← historial = bitácora
 | pelo             | largo, corto, sin_pelo                                                              |
 | es_magico        | si, no                                                                              |
 | color_vestimenta | rojo, azul, verde, amarillo, negro, blanco, morado, naranja, rosa, cafe, gris, na   |
-| vive_en          | castillo, bosque, selva, mar, ciudad, desierto, pantano, oceano, pueblo, otro, otro_mundo |
+| vive_en          | castillo, bosque, selva, mar, ciudad, desierto, pantano, oceano, pueblo, sabana, juego, otro, otro_mundo |
 | genero           | masculino, femenino, na                                                             |
 | habla            | si, no                                                                              |
 | edad             | adulto, nino, bebe, adolescente, anciano                                            |
