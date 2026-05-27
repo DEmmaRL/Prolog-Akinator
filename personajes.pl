@@ -682,7 +682,7 @@ atributo(lilo, es_protagonista, si).
 atributo(lilo, color_pelo, negro).
 atributo(lilo, pelo, largo).
 atributo(lilo, es_magico, no).
-atributo(lilo, color_vestimenta, rojo).
+atributo(lilo, color_vestimenta, naranja).
 atributo(lilo, vive_en, ciudad).
 atributo(lilo, genero, femenino).
 atributo(lilo, habla, si).
@@ -1150,7 +1150,7 @@ atributo(mcqueen, es_protagonista, si).
 atributo(mcqueen, color_pelo, ninguno).
 atributo(mcqueen, pelo, sin_pelo).
 atributo(mcqueen, es_magico, no).
-atributo(mcqueen, color_vestimenta, rojo).
+atributo(mcqueen, color_vestimenta, na).
 atributo(mcqueen, vive_en, pueblo).
 atributo(mcqueen, genero, masculino).
 atributo(mcqueen, habla, si).
@@ -1163,7 +1163,7 @@ atributo(sally, es_protagonista, si).
 atributo(sally, color_pelo, ninguno).
 atributo(sally, pelo, sin_pelo).
 atributo(sally, es_magico, no).
-atributo(sally, color_vestimenta, azul).
+atributo(sally, color_vestimenta, na).
 atributo(sally, vive_en, pueblo).
 atributo(sally, genero, femenino).
 atributo(sally, habla, si).
@@ -1225,8 +1225,8 @@ atributo(flounder, color_cuerpo, amarillo).
 atributo(sebastian, especie, animal).
 atributo(sebastian, es_villano, no).
 atributo(sebastian, es_protagonista, no).
-atributo(sebastian, color_pelo, rojo).
-atributo(sebastian, pelo, corto).
+atributo(sebastian, color_pelo, ninguno).
+atributo(sebastian, pelo, sin_pelo).
 atributo(sebastian, es_magico, no).
 atributo(sebastian, color_vestimenta, na).
 atributo(sebastian, vive_en, oceano).
@@ -1371,7 +1371,7 @@ atributo(mater, es_protagonista, si).
 atributo(mater, color_pelo, ninguno).
 atributo(mater, pelo, sin_pelo).
 atributo(mater, es_magico, no).
-atributo(mater, color_vestimenta, cafe).
+atributo(mater, color_vestimenta, na).
 atributo(mater, vive_en, pueblo).
 atributo(mater, genero, masculino).
 atributo(mater, habla, si).
@@ -1462,12 +1462,12 @@ atributo(pegasus, es_protagonista, no).
 atributo(pegasus, color_pelo, azul).
 atributo(pegasus, pelo, corto).
 atributo(pegasus, es_magico, si).
-atributo(pegasus, color_vestimenta, blanco).
+atributo(pegasus, color_vestimenta, na).
 atributo(pegasus, vive_en, ciudad).
 atributo(pegasus, genero, masculino).
 atributo(pegasus, habla, si).
 atributo(pegasus, edad, adulto).
-atributo(pegasus, color_cuerpo, null).
+atributo(pegasus, color_cuerpo, blanco).
 
 atributo(meg, especie, humano).
 atributo(meg, es_villano, no).
@@ -1526,7 +1526,7 @@ atributo(mr_incredible, es_villano, no).
 atributo(mr_incredible, es_protagonista, si).
 atributo(mr_incredible, color_pelo, rubio).
 atributo(mr_incredible, pelo, corto).
-atributo(mr_incredible, es_magico, si).
+atributo(mr_incredible, es_magico, no).
 atributo(mr_incredible, color_vestimenta, rojo).
 atributo(mr_incredible, vive_en, ciudad).
 atributo(mr_incredible, genero, masculino).
@@ -1539,7 +1539,7 @@ atributo(elastigirl, es_villano, no).
 atributo(elastigirl, es_protagonista, si).
 atributo(elastigirl, color_pelo, cafe).
 atributo(elastigirl, pelo, corto).
-atributo(elastigirl, es_magico, si).
+atributo(elastigirl, es_magico, no).
 atributo(elastigirl, color_vestimenta, rojo).
 atributo(elastigirl, vive_en, ciudad).
 atributo(elastigirl, genero, femenino).
@@ -1552,7 +1552,7 @@ atributo(violet, es_villano, no).
 atributo(violet, es_protagonista, si).
 atributo(violet, color_pelo, negro).
 atributo(violet, pelo, largo).
-atributo(violet, es_magico, si).
+atributo(violet, es_magico, no).
 atributo(violet, color_vestimenta, rojo).
 atributo(violet, vive_en, ciudad).
 atributo(violet, genero, femenino).
